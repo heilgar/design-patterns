@@ -42,6 +42,6 @@ class ItemTest extends TestCase
 
     public function testNotSquareAndRectangle()
     {
-        $this->assertTrue($this->item->notSquareAndRectangle());
+        $this->assertFalse($this->item->notSquareAndRectangle());
     }
 }
